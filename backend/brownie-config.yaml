@@ -1,0 +1,7 @@
+networks:
+  development:
+    host: http://127.0.0.1
+    port: 8545
+    gas_price: 20000000000  # Optional: Customize gas price if necessary
+    gas_limit: 12000000     # Optional: Adjust gas limit
+    chain_id: 1337          # Ganache default chain ID
