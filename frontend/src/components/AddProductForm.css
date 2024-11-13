@@ -1,0 +1,49 @@
+/* AddProductForm.css */
+
+.add-product-form {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+.add-product-form h2 {
+    color: #333333; /* Dark grey text */
+    margin-bottom: 1rem;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="date"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.add-product-form label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.add-product-form button {
+    background-color: #ffcc00; /* Honey yellow */
+    color: #333333; /* Dark text */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-form button:hover {
+    background-color: #ffdb4d; /* Lighter yellow on hover */
+}
